@@ -4,59 +4,79 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="/favicon.ico" />
-    <title>Petite Vue Starter</title>
+    <title>Rida F Najid - Software Engineer</title>
   </head>
 
-  <body>
-    <div
-      class="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12"
-    >
-      <div class="relative py-3 sm:max-w-xl sm:mx-auto">
+  <body class="min-h-screen bg-gray-700 text-gray-100 font-mono">
+    <div class="w-150 mx-auto py-12 p-10">
+      <div class="flex flex-col ml-10 my-5">
+        <span class="text-8xl mx-auto">🧑🏿</span>
         <div
-          class="absolute inset-0 bg-gradient-to-r from-cyan-400 to-sky-500 shadow-lg -skew-y-6 sm:skew-y-0 sm:-rotate-6 sm:rounded-3xl"
-        ></div>
-        <div
-          class="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20"
+          class="justify-center text-center mt-5 mx-auto"
         >
-          <div class="max-w-md mx-auto">
-            <div class="divide-y divide-gray-200">
-              <div
-                class="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7"
-              >
-                <div
-                  id="app"
-                  class="flex justify-between items-center"
-                  @mounted="mounted($el)"
-                >
-                  <div>
-                    <p>
-                      Count:
-                      <span v-cloak class="tag">{{ count }}</span>
-                    </p>
-                    <p>
-                      Plus one:
-                      <span v-cloak class="tag">{{ plusOne }}</span>
-                    </p>
-                  </div>
-                  <button class="btn" @click="increment">Increment</button>
-                </div>
-              </div>
-              <div
-                class="pt-6 text-base font-bold leading-6 sm:text-lg sm:leading-7"
-              >
-                <p>Want to dig deeper into Petite Vue?</p>
-                <p>
-                  <a
-                    href="https://github.com/vuejs/petite-vue"
-                    class="text-sky-500 hover:text-sky-600"
-                  >
-                    Head over to the docs &rarr;
-                  </a>
-                </p>
-              </div>
-            </div>
-          </div>
+          <h1 class="text-4xl my-1">Rida F Najid</h1>
+          <h2 class="text-2xl">
+            Lead Software Engineer at
+            <a
+              class="font-bold text-orange-500 underline"
+              href="https://insura.co.id"
+              >Insura</a
+            >
+          </h3>
         </div>
+      </div>
+      <div>
+        <ul>
+          <li>I live in Surabaya, Indonesia.</li>
+          <li>I'm into Manga, Anime and Crime dramas.</li>
+          <li>
+            In my free time, I write posts on
+            <a
+            class="text-red-600 font-bold underline"
+            href="https://id.quora.com/profile/Rida-F-Najid"
+            >Quora</a
+            >
+            or create videos on
+            <a class="font-bold underline" href="https://www.tiktok.com/@udarida"
+            >Tiktok</a
+            >
+          </li>
+          <li>I also write articles on Dev.to</li>
+        </ul>
+
+        <!-- <h3 class="text-xl my-5 font-bold">Here's my latest writing...</h3>
+        <ul class="list-disc">
+          <li>Not Found</li>
+          <li>Not Found</li>
+          <li>Not Found</li>
+          <li>Not Found</li>
+          <li>Not Found</li>
+        </ul> -->
+        
+        <h3 class="text-xl mt-10 mb-2 font-bold">You can find me at...</h3>
+        <ul>
+          <li>
+            <a href="https://www.linkedin.com/in/rida-f-najid-72083051/" class="bold underline">Linkedin</a>
+          </li>
+          <li>
+            <a href="https://www.tiktok.com/@udarida" class="bold underline">Tiktok</a>
+          </li>
+          <li>
+            <a href="https://id.quora.com/profile/Rida-F-Najid" class="bold underline">Quora</a>
+          </li>
+          <li>
+            <a href="https://rfnajid.medium.com/" class="bold underline">Medium</a>
+          </li>
+          <li>
+            <a href="https://dev.to/rfnajid" class="bold underline">Dev.to</a>
+          </li>
+          <li>
+            <a href="https://twitter.com/udarida" class="bold underline">Twitter</a>
+          </li>
+          <li>
+            <a href="mailto://me@rfnaj.id" class="bold underline">Email</a>
+          </li>
+        </ul>
       </div>
     </div>
 
