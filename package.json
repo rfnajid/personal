@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "start": "npm run dev",
-    "dev": "vite",
+    "dev": "vite --host",
     "build": "vite build",
     "serve": "vite preview",
     "lint": "eslint \"src/**/*.ts\"",
@@ -18,7 +18,7 @@
     "@types/node": "^18.0.6",
     "@typescript-eslint/eslint-plugin": "^5.30.7",
     "@typescript-eslint/parser": "^5.30.7",
-    "@unocss/preset-typography": "^0.44.5",
+    "@unocss/preset-web-fonts": "^0.50.6",
     "@unocss/preset-wind": "^0.44.5",
     "@unocss/transformer-directives": "^0.44.5",
     "eslint": "^8.20.0",

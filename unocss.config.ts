@@ -1,7 +1,16 @@
-import { defineConfig } from "unocss";
-import { presetTypography } from "@unocss/preset-typography";
+import { defineConfig, presetWebFonts } from "unocss";
 import { presetWind } from "@unocss/preset-wind";
 
 export default defineConfig({
-  presets: [presetWind(), presetTypography()],
+  presets: [
+    presetWind(),
+    presetWebFonts({
+      provider: "google", // default provider
+      fonts: {
+        // these will extend the default theme
+        sans: "Roboto",
+        mono: ["Space Mono"],
+      },
+    }),
+  ],
 });
